@@ -23,8 +23,8 @@ Take each **row** of $A$ and dot it with $\mathbf{x}$:
 
 $$
 A\mathbf{x} = \begin{pmatrix}
-\text{row}_1 \cdot \mathbf{x} \\
-\text{row}_2 \cdot \mathbf{x}
+\mathrm{row\,1} \cdot \mathbf{x} \\
+\mathrm{row\,2} \cdot \mathbf{x}
 \end{pmatrix}.
 $$
 
@@ -136,13 +136,6 @@ $$
 \text{entry } 2 = a_{21}\,x_1 + a_{22}\,x_2.
 $$
 
-**Column view** scales and adds columns:
-
-$$
-x_1 \begin{pmatrix} a_{11} \\ a_{21} \end{pmatrix}
-+ x_2 \begin{pmatrix} a_{12} \\ a_{22} \end{pmatrix}
-= \begin{pmatrix} a_{11}\,x_1 + a_{12}\,x_2 \\ a_{21}\,x_1 + a_{22}\,x_2 \end{pmatrix}.
-$$
 
 The expressions are identical — the arithmetic is just **grouped differently**. The row view groups by *output entry*; the column view groups by *input coefficient*. Rearranging one gives the other, because addition is commutative and associative.
 
