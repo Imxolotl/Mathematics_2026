@@ -35,7 +35,6 @@ Welcome to the **Mathematics Student Workbook**. This repository contains exerci
    - `solutions/3_Calculus/...`
 3. Commit and push your solutions to your forked repository.
 
-Your repository will be monitored for updates and progress across the exercises and solutions.
 
 ---
 
