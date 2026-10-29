@@ -209,7 +209,7 @@ $$
 (BA)x = B(Ax)
 $$
 
-Because successive geometric transformations generally depend on their execution order, applying $B$ first and then $A$ yields a completely different vector from applying $A$ first and then $B$. Consequently, $AB \neq BA$.
+Applying the transformations in different orders can produce different results, as demonstrated by the fact that $AB \neq BA$.
 
 ### Contrast with ordinary numbers
 
@@ -244,7 +244,7 @@ $$
 \mathrm{tr}(BA) = 2 + 7 = 9.
 $$
 
-The traces match ($9 = 9$), confirming that our arithmetic is consistent even though the individual matrices $AB$ and $BA$ are unequal.
+The matching traces provide an additional consistency check, although they do not by themselves prove that every entry is correct.
 
 ---
 
@@ -252,4 +252,4 @@ The traces match ($9 = 9$), confirming that our arithmetic is consistent even th
 
 - **Core difference from number arithmetic:** Noncommutativity is the fundamental algebraic boundary separating matrix algebra from scalar algebra: **order matters**.
 - **Practical consequence:** In applications (computer graphics, robotics, physics), when transformations act on column vectors, the product $AB$ corresponds to applying transformation $B$ first and transformation $A$ second. Applying $B$ then $A$ is **not** the same as applying $A$ then $B$ ($BA$). For instance, translating an object and then rotating it gives a different final position from rotating it first and then translating it.
-- **Foundation for deeper topics:** Understanding noncommutativity prepares you for matrix Lie groups, quantum mechanics (where the commutator $[A, B] = AB - BA \neq 0$ implies the Heisenberg uncertainty principle), and modern linear algebra.
+- **Foundation for deeper topics:** Understanding noncommutativity prepares you for concepts like commutators ($[A, B] = AB - BA$), matrix Lie groups, and modern linear algebra. In quantum mechanics, for quantum observables, the commutator determines a lower bound on their measurement uncertainties through the uncertainty relation.
