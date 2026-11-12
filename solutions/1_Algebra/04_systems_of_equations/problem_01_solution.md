@@ -194,27 +194,11 @@ Two vectors are equal if and only if their corresponding entries are equal, whic
 - **Column Perspective:** The system expresses the right-hand side vector $b$ as a linear combination of the column vectors of $A$:
 
 $$
-x
-\begin{pmatrix}
-2 \\
-1 \\
-3
-\end{pmatrix}
-+ y
-\begin{pmatrix}
--1 \\
-3 \\
-1
-\end{pmatrix}
-+ z
-\begin{pmatrix}
-1 \\
--2 \\
-1
-\end{pmatrix}
-= \begin{pmatrix}
-4 \\
-1 \\
-7
-\end{pmatrix}
+\begin{aligned}
+x \begin{pmatrix} 2 \\ 1 \\ 3 \end{pmatrix}
+-y \begin{pmatrix} -1 \\ 3 \\ 1 \end{pmatrix}
+-z \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}
+&=
+\begin{pmatrix} 4 \\ 1 \\ 7 \end{pmatrix}
+\end{aligned}
 $$
