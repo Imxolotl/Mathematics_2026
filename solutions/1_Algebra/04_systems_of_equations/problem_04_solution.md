@@ -136,28 +136,15 @@ $$
 Writing the full solution in vector form:
 
 $$
-\begin{pmatrix}
-x \\
-y \\
-z
-\end{pmatrix}
-= \begin{pmatrix}
-1 - t \\
-1 \\
-t
-\end{pmatrix}
-= \begin{pmatrix}
-1 \\
-1 \\
-0
-\end{pmatrix}
-+ t
-\begin{pmatrix}
--1 \\
-0 \\
-1
-\end{pmatrix},
-\quad t \in \mathbb{R}
+\begin{aligned}
+\begin{pmatrix} x \\ y \\ z \end{pmatrix}
+&=
+\begin{pmatrix} 1-t \\ 1 \\ t \end{pmatrix} \\[6pt]
+&=
+\begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}
++t\begin{pmatrix} -1 \\ 0 \\ 1 \end{pmatrix},
+\quad t\in\mathbb{R}
+\end{aligned}
 $$
 
 Geometrically, this solution set represents a straight line in three-dimensional space $\mathbb{R}^3$ passing through the point $(1, 1, 0)$ with direction vector $(-1, 0, 1)^T$.
