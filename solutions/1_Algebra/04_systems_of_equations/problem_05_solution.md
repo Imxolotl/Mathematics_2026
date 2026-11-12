@@ -110,28 +110,15 @@ $$
 Collecting all variables into vector form:
 
 $$
-\begin{pmatrix}
-x \\
-y \\
-z
-\end{pmatrix}
-= \begin{pmatrix}
-1 + 5t \\
-1 - 2t \\
-t
-\end{pmatrix}
-= \begin{pmatrix}
-1 \\
-1 \\
-0
-\end{pmatrix}
-+ t
-\begin{pmatrix}
-5 \\
--2 \\
-1
-\end{pmatrix},
-\quad t \in \mathbb{R}
+\begin{aligned}
+\begin{pmatrix} x \\ y \\ z \end{pmatrix}
+&=
+\begin{pmatrix} 1+5t \\ 1-2t \\ t \end{pmatrix} \\[6pt]
+&=
+\begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}
++t\begin{pmatrix} 5 \\ -2 \\ 1 \end{pmatrix},
+\quad t\in\mathbb{R}
+\end{aligned}
 $$
 
 The solution set forms a straight line in $\mathbb{R}^3$ passing through $(1, 1, 0)$ with direction vector $(5, -2, 1)^T$.
