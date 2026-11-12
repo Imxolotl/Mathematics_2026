@@ -116,6 +116,7 @@ $$
 $$
 
 - **Geometric reason:** Reversing the ordering from $(u, v)$ to $(v, u)$ reverses the spatial orientation in the plane. Turning from $u = (3, 1)$ to $v = (1, 4)$ moves in the counterclockwise direction (angle of $+63.43^\circ$), while turning from $v = (1, 4)$ to $u = (3, 1)$ moves in the clockwise direction (angle of $-63.43^\circ$). The signed determinant changes from $+11$ to $-11$.
+- **Geometric reason:** Reversing the ordering from $(u, v)$ to $(v, u)$ reverses the spatial orientation in the plane. Turning from $u = (3, 1)$ to $v = (1, 4)$ moves in the counterclockwise direction (angle of about $+57.53^\circ$, since $\theta_v \approx 75.96^\circ$ and $\theta_u \approx 18.43^\circ$), while turning from $v = (1, 4)$ to $u = (3, 1)$ moves in the clockwise direction (angle of about $-57.53^\circ$). The signed determinant changes from $+11$ to $-11$.
 
 #### What Does Not Change: The Area of the Parallelogram (Magnitude)
 
@@ -254,4 +255,3 @@ $$
 $$
 
   The absolute value is necessary because area and volume must be strictly positive measures.
-- **Differential Forms:** In higher mathematics and physics, differential forms are inherently antisymmetric ($dx \wedge dy = -dy \wedge dx$). The determinant formalizes the behavior of oriented flux and volume forms in Stokes' theorem.
