@@ -33,17 +33,17 @@ $$
 \begin{pmatrix}
 2 & -1 & 1 \\
 1 & 3 & -2 \\
-3 & 1 & 1
+3 & 1 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
 x \\
 y \\
-z
+z \\
 \end{pmatrix}
 = \begin{pmatrix}
 4 \\
 1 \\
-7
+7 \\
 \end{pmatrix}
 $$
 
@@ -59,7 +59,7 @@ A =
 \begin{pmatrix}
 2 & -1 & 1 \\
 1 & 3 & -2 \\
-3 & 1 & 1
+3 & 1 & 1 \\
 \end{pmatrix}
 $$
 
@@ -71,7 +71,7 @@ x =
 \begin{pmatrix}
 x \\
 y \\
-z
+z \\
 \end{pmatrix}
 $$
 
@@ -83,7 +83,7 @@ b =
 \begin{pmatrix}
 4 \\
 1 \\
-7
+7 \\
 \end{pmatrix}
 $$
 
@@ -154,17 +154,17 @@ Ax =
 \begin{pmatrix}
 2 & -1 & 1 \\
 1 & 3 & -2 \\
-3 & 1 & 1
+3 & 1 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
 x \\
 y \\
-z
+z \\
 \end{pmatrix}
 = \begin{pmatrix}
 2x - y + z \\
 x + 3y - 2z \\
-3x + y + z
+3x + y + z \\
 \end{pmatrix}
 $$
 
@@ -174,12 +174,12 @@ $$
 \begin{pmatrix}
 2x - y + z \\
 x + 3y - 2z \\
-3x + y + z
+3x + y + z \\
 \end{pmatrix}
 = \begin{pmatrix}
 4 \\
 1 \\
-7
+7 \\
 \end{pmatrix}
 $$
 
@@ -194,11 +194,25 @@ Two vectors are equal if and only if their corresponding entries are equal, whic
 - **Column Perspective:** The system expresses the right-hand side vector $b$ as a linear combination of the column vectors of $A$:
 
 $$
-\begin{aligned}
-x \begin{pmatrix} 2 \\ 1 \\ 3 \end{pmatrix}
--y \begin{pmatrix} -1 \\ 3 \\ 1 \end{pmatrix}
--z \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}
-&=
-\begin{pmatrix} 4 \\ 1 \\ 7 \end{pmatrix}
-\end{aligned}
+x
+\begin{pmatrix}
+2 \\
+1 \\
+3 \\
+\end{pmatrix} + y
+\begin{pmatrix}
+-1 \\
+3 \\
+1 \\
+\end{pmatrix} + z
+\begin{pmatrix}
+1 \\
+-2 \\
+1 \\
+\end{pmatrix} =
+\begin{pmatrix}
+4 \\
+1 \\
+7 \\
+\end{pmatrix}
 $$
